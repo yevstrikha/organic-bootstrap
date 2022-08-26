@@ -103,3 +103,108 @@ header{
     }
   }
 }
+.main{
+  padding-top: 94px;
+  padding-bottom: 50px;
+  background-color: #F3FBF8;
+  h1{
+    font-family: 'Rosario';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 90px;
+    color: #222;
+    margin-bottom: 20px;
+  }
+  p{
+    max-width: 640px;
+    width: 100%;
+    margin: auto;
+  }
+  .order_btn{
+    margin-top: 57px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #222222;
+    justify-content: center;
+    transition: 0.3s;
+    &:hover{
+      color: #097c52;
+    }
+    &:hover:after{
+      background-color: #38c794;
+
+    }
+    &:after{
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      content: "\f178";
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 64px;
+      width: 64px;
+      background-color: #09A66D;
+      border-radius: 50%;
+      margin-left: 20px;
+      color: white;
+      font-size: 20px;
+    }
+  }
+  .main_content{
+    display: flex;
+    justify-content: space-between;
+    .main_img{
+      max-width: 860px;
+      width: 100%;
+      position: relative;
+      left: -45px;
+      top: -45px;
+      img{
+        display: block;
+        width: 100%;
+      }
+    }
+.main_items{
+  max-width: 250px;
+  width: 100%;
+  .item{
+    padding: 17px 34px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    display: flex;
+    width: 100%;
+    .item_text{
+      h3{
+        text-transform: uppercase;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 48px;
+        color: #000;
+        margin-bottom: 4px;
+      }
+p{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: black;
+}
+    }
+img{
+  display: inline-block;
+  margin-right: 25px;
+}
+  }
+}
+  }
+}
