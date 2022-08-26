@@ -14,6 +14,22 @@ header {
 .navbar-brand {
   display: inline-block; }
 
+h2 {
+  font-family: 'Rosario';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  color: #222222; }
+
+h5 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #222222; }
+
 .header_menu li:first-of-type, .header_menu li:nth-of-type(2) {
   width: 40px;
   height: 40px;
@@ -65,9 +81,9 @@ header {
   position: absolute;
   left: 50%; }
 
-.navbar-nav li:hover {
+.menu_list li:hover {
   border-bottom: solid 2px #09A66D; }
-  .navbar-nav li:hover a:hover {
+  .menu_list li:hover a:hover {
     color: #09A66D;
     padding-bottom: 3px; }
 
@@ -101,9 +117,11 @@ header {
     justify-content: center;
     transition: 0.3s; }
     .main .order_btn:hover {
-      color: #097c52; }
+      color: #097c52;
+      cursor: pointer; }
     .main .order_btn:hover:after {
-      background-color: #38c794; }
+      background-color: #38c794;
+      cursor: pointer; }
     .main .order_btn:after {
       font-family: "Font Awesome 6 Free";
       font-weight: 900;
@@ -158,5 +176,76 @@ header {
         .main .main_content .main_items .item img {
           display: inline-block;
           margin-right: 25px; }
+
+.the_best {
+  padding: 140px 0;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden; }
+  .the_best .line_top_best {
+    position: absolute;
+    top: -60px;
+    right: 0; }
+  .the_best h2 {
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2; }
+  .the_best p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+    max-width: 640px;
+    width: 100%;
+    position: relative;
+    z-index: 2; }
+  .the_best .best_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .the_best .best_content .delivery_guy {
+      max-width: 600px;
+      width: 100%;
+      position: relative;
+      z-index: 2; }
+      .the_best .best_content .delivery_guy img {
+        display: block;
+        width: 100%; }
+  .the_best .the_best_list .arrow_down {
+    display: flex;
+    justify-content: center; }
+  .the_best .the_best_list .best_step {
+    padding: 40px 60px;
+    background-color: #fff;
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 15px;
+    transition: 0.3s; }
+    .the_best .the_best_list .best_step:hover {
+      background-color: #F3FBF8; }
+    .the_best .the_best_list .best_step:hover .best_step_img {
+      background-color: #fff; }
+    .the_best .the_best_list .best_step .best_step_img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #F3FBF8;
+      margin-right: 24px; }
+    .the_best .the_best_list .best_step .best_text_text {
+      max-width: 277px;
+      width: 100%; }
+      .the_best .the_best_list .best_step .best_text_text p {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #555555; }
 
 /*# sourceMappingURL=style.css.map */
