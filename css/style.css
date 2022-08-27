@@ -2,6 +2,9 @@
 .navbar a {
   font-family: 'DM Sans', sans-serif; }
 
+body {
+  overflow-x: hidden; }
+
 header {
   padding-top: 50px;
   padding-bottom: 43px; }
