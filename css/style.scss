@@ -589,6 +589,7 @@ h5 {
         padding: 11px 24px;
         border-radius: 50px;
         transition: 0.3s;
+        margin-bottom: 16px;
         &:hover{
           background-color: #d3eee7;
 
@@ -621,7 +622,7 @@ h5 {
         a{
           transition: 0.3s;
           &:hover{
-            box-shadow: 0 .5rem 1rem rgba(green, .15);
+            box-shadow: 0 .5rem 1rem rgba(green, 0.6);
           }
         }
       }

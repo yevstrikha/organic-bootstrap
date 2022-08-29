@@ -405,7 +405,8 @@ h5 {
     background-color: #F3FBF8;
     padding: 11px 24px;
     border-radius: 50px;
-    transition: 0.3s; }
+    transition: 0.3s;
+    margin-bottom: 16px; }
     .how_to_order .row .col-md-7 .btn_download:hover {
       background-color: #d3eee7; }
   .how_to_order .row .col-md-7 h2 {
@@ -432,6 +433,6 @@ h5 {
     .how_to_order .row .col-md-7 .markets_btn a {
       transition: 0.3s; }
       .how_to_order .row .col-md-7 .markets_btn a:hover {
-        box-shadow: 0 0.5rem 1rem rgba(0, 128, 0, 0.15); }
+        box-shadow: 0 0.5rem 1rem rgba(0, 128, 0, 0.6); }
 
 /*# sourceMappingURL=style.css.map */
