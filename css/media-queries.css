@@ -1,7 +1,7 @@
 @media only screen and (max-width: 1024px) {
-.navbar-brand{
-    justify-self: center;
-}
+    .navbar-brand {
+        justify-self: center;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -9,7 +9,8 @@
         align-items: center;
         margin-top: 20px;
     }
-    .navbar-brand{
+
+    .navbar-brand {
         position: inherit;
     }
 
@@ -19,13 +20,15 @@
         justify-content: center;
     }
 
-    .header_menu li:first-of-type{
+    .header_menu li:first-of-type {
         display: none;
     }
-    .header_menu li:nth-of-type(2){
+
+    .header_menu li:nth-of-type(2) {
         display: none;
     }
-    .header_menu li:last-of-type{
+
+    .header_menu li:last-of-type {
         margin-left: 0;
         position: absolute;
         top: 10%;
