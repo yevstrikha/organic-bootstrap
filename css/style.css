@@ -67,6 +67,14 @@ h5 {
   line-height: 30px;
   color: #222222; }
 
+h6 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #222222; }
+
 .header_menu li:first-of-type, .header_menu li:nth-of-type(2) {
   width: 40px;
   height: 40px;
@@ -119,7 +127,7 @@ h5 {
   left: 50%; }
 
 .menu_list li:hover {
-  border-bottom: solid 2px #09A66D; }
+  text-shadow: 5px 5px 13px rgba(9, 124, 82, 0.19); }
   .menu_list li:hover a:hover {
     color: #09A66D;
     padding-bottom: 3px; }
@@ -366,14 +374,16 @@ h5 {
     transition: 0.5s; }
     .our_customers .owl-nav button:hover {
       border: none;
-      background-color: #097c52; }
+      background-color: #0f9665; }
   .our_customers .owl-nav button.owl-prev {
     width: 56px;
     height: 56px;
     border-radius: 50%;
-    border: solid 1px #cccccc;
+    border: solid 1px #097c52;
     margin-right: 25px;
     text-align: center; }
+    .our_customers .owl-nav button.owl-prev:hover:before {
+      color: #F3FBF8; }
     .our_customers .owl-nav button.owl-prev span {
       display: none; }
     .our_customers .owl-nav button.owl-prev:before {
@@ -381,14 +391,16 @@ h5 {
       font-weight: 900;
       content: "\f053";
       display: inline-block;
-      color: #cccccc; }
+      color: #097c52; }
   .our_customers .owl-nav button.owl-next {
     width: 56px;
     height: 56px;
     border-radius: 50%;
-    border: solid 1px #cccccc;
+    border: solid 1px #097c52;
     margin-right: 25px;
     text-align: center; }
+    .our_customers .owl-nav button.owl-next:hover:before {
+      color: #F3FBF8; }
     .our_customers .owl-nav button.owl-next span {
       display: none; }
     .our_customers .owl-nav button.owl-next:before {
@@ -397,10 +409,13 @@ h5 {
       content: "\f053";
       display: inline-block;
       transform: rotate(180deg);
-      color: #cccccc; }
+      color: #097c52; }
 
 .how_to_order {
   padding: 150px 0; }
+  .how_to_order .row .col-md-5 .iphone2 {
+    top: -32px;
+    left: 40px; }
   .how_to_order .row .col-md-7 .btn_download {
     background-color: #F3FBF8;
     padding: 11px 24px;
@@ -434,5 +449,49 @@ h5 {
       transition: 0.3s; }
       .how_to_order .row .col-md-7 .markets_btn a:hover {
         box-shadow: 0 0.5rem 1rem rgba(0, 128, 0, 0.6); }
+
+footer {
+  padding: 100px 0;
+  background-color: #FCFEFD; }
+  footer .col-md-4 a {
+    top: -45px;
+    left: 0; }
+  footer .col-md-4 p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555; }
+  footer h6 {
+    margin-bottom: 20px; }
+  footer .list-group .list-group-item {
+    border: none;
+    background: none;
+    padding-left: 0;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #555555; }
+    footer .list-group .list-group-item:hover {
+      color: #09A66D;
+      text-shadow: 5px 5px 13px rgba(9, 124, 82, 0.19); }
+  footer .social {
+    max-width: 135px;
+    width: 100%; }
+    footer .social a {
+      color: #000000;
+      transition: 0.15s; }
+      footer .social a:first-of-type:hover {
+        color: #4267B2;
+        transform: scale(1.2); }
+      footer .social a:nth-of-type(2):hover {
+        color: #1DA1F2;
+        transform: scale(1.2); }
+      footer .social a:last-of-type:hover {
+        color: #f09433;
+        transform: scale(1.2); }
 
 /*# sourceMappingURL=style.css.map */

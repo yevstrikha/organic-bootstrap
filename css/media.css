@@ -1,0 +1,61 @@
+@media only screen and (max-width: 1199px) {
+  .our_customers .owl-nav {
+    left: 75%; } }
+@media only screen and (max-width: 1060px) {
+  .our_customers .owl-nav {
+    left: 75%; }
+  .our_customers .container .carousel_content .carousel_text {
+    margin-top: 0;
+    max-width: 100%; }
+  .our_customers .container .carousel_content .carousel_img {
+    max-width: 350px; }
+  .our_customers .container h2 {
+    position: inherit;
+    text-align: center; } }
+@media only screen and (max-width: 1024px) {
+  .navbar-brand {
+    justify-self: center; } }
+@media only screen and (max-width: 992px) {
+  .navbar-nav {
+    align-items: center;
+    margin-top: 20px; }
+
+  .navbar-brand {
+    position: inherit; }
+
+  .header_menu {
+    flex-direction: row;
+    justify-content: center; }
+
+  .header_menu li:first-of-type {
+    display: none; }
+
+  .header_menu li:nth-of-type(2) {
+    display: none; }
+
+  .header_menu li:last-of-type {
+    margin-left: 0;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%); } }
+@media only screen and (max-width: 767px) {
+  .our_customers .owl-nav {
+    display: none; }
+
+  .owl-carousel button.owl-dot {
+    position: relative;
+    bottom: -15px;
+    left: 50%;
+    height: 7px;
+    width: 7px;
+    background-color: #0e855d;
+    margin-right: 7px;
+    border-radius: 50%; }
+    .owl-carousel button.owl-dot.active {
+      border: solid 2px #0e855d;
+      background: none;
+      height: 10px;
+      width: 10px; } }
+
+/*# sourceMappingURL=media.css.map */

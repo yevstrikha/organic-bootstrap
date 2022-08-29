@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Rosario:wght@700&display=swap');
+
 .navbar {
   a {
     font-family: 'DM Sans', sans-serif;
@@ -84,6 +85,15 @@ h5 {
   color: #222222;
 }
 
+h6 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #222222;
+}
+
 .header_menu {
   li {
     &:first-of-type, &:nth-of-type(2) {
@@ -159,7 +169,7 @@ h5 {
 
 .menu_list {
   li:hover {
-    border-bottom: solid 2px #09A66D;
+    text-shadow: 5px 5px 13px rgba(9, 124, 82, 0.19);
 
     a {
 
@@ -438,7 +448,7 @@ h5 {
   }
 }
 
-                        //C U S T O M E R S//
+//C U S T O M E R S//
 .our_customers {
   padding-top: 96px;
   padding-bottom: 10px;
@@ -531,7 +541,7 @@ h5 {
 
     button:hover {
       border: none;
-      background-color: #097c52;
+      background-color: #0f9665;
     }
   }
 
@@ -539,9 +549,13 @@ h5 {
     width: 56px;
     height: 56px;
     border-radius: 50%;
-    border: solid 1px #cccccc;
+    border: solid 1px #097c52;
     margin-right: 25px;
     text-align: center;
+
+    &:hover:before {
+      color: #F3FBF8;
+    }
 
     span {
       display: none;
@@ -552,7 +566,8 @@ h5 {
       font-weight: 900;
       content: "\f053";
       display: inline-block;
-      color: #cccccc;
+      color: #097c52;
+
     }
   }
 
@@ -560,10 +575,12 @@ h5 {
     width: 56px;
     height: 56px;
     border-radius: 50%;
-    border: solid 1px #cccccc;
+    border: solid 1px #097c52;
     margin-right: 25px;
     text-align: center;
-
+    &:hover:before{
+      color: #F3FBF8;
+    }
     span {
       display: none;
     }
@@ -574,28 +591,38 @@ h5 {
       content: "\f053";
       display: inline-block;
       transform: rotate(180deg);
-      color: #cccccc;
+      color: #097c52;
+
     }
   }
 }
 
-.how_to_order{
+.how_to_order {
   padding: 150px 0;
-  .row{
-    .col-md-5{}
-    .col-md-7{
-      .btn_download{
+
+  .row {
+    .col-md-5 {
+      .iphone2 {
+        top: -32px;
+        left: 40px;
+      }
+    }
+
+    .col-md-7 {
+      .btn_download {
         background-color: #F3FBF8;
         padding: 11px 24px;
         border-radius: 50px;
         transition: 0.3s;
         margin-bottom: 16px;
-        &:hover{
+
+        &:hover {
           background-color: #d3eee7;
 
         }
       }
-      h2{
+
+      h2 {
         font-family: 'Rosario';
         font-style: normal;
         font-weight: 700;
@@ -603,7 +630,8 @@ h5 {
         line-height: 90px;
         margin-bottom: 20px;
       }
-      p{
+
+      p {
         font-family: 'DM Sans';
         font-style: normal;
         font-weight: 400;
@@ -614,19 +642,92 @@ h5 {
         width: 100%;
         margin-bottom: 50px;
       }
-      .markets_btn{
+
+      .markets_btn {
         display: flex;
-        &:first-of-type a{
+
+        &:first-of-type a {
           margin-right: 20px;
         }
-        a{
+
+        a {
           transition: 0.3s;
-          &:hover{
+
+          &:hover {
             box-shadow: 0 .5rem 1rem rgba(green, 0.6);
           }
         }
       }
     }
 
+  }
+}
+
+footer {
+  padding: 100px 0;
+  background-color: #FCFEFD;
+
+  .col-md-4 {
+    a {
+      top: -45px;
+      left: 0;
+    }
+
+    p {
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      color: #555555;
+    }
+  }
+
+  h6 {
+    margin-bottom: 20px;
+  }
+
+  .list-group {
+    .list-group-item {
+      border: none;
+      background: none;
+      padding-left: 0;
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 23px;
+      color: #555555;
+
+      &:hover {
+        color: #09A66D;
+        text-shadow: 5px 5px 13px rgba(9, 124, 82, 0.19);
+      }
+    }
+  }
+
+  .social {
+    max-width: 135px;
+    width: 100%;
+
+    & a {
+      color: #000000;
+      transition: 0.15s;
+
+      &:first-of-type:hover {
+        color: #4267B2;
+        transform: scale(1.2);
+      }
+
+      &:nth-of-type(2):hover {
+        color: #1DA1F2;
+        transform: scale(1.2);
+      }
+
+      &:last-of-type:hover {
+        color: #f09433;
+        transform: scale(1.2);
+      }
+    }
   }
 }
