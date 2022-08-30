@@ -8,6 +8,7 @@
 
 body {
   overflow-x: hidden;
+  z-index: 100;
 }
 
 header {
@@ -347,12 +348,12 @@ h6 {
     .best_step {
       padding: 40px 60px;
       background-color: #fff;
-      display: flex;
       max-width: 500px;
       width: 100%;
       margin-bottom: 15px;
       transition: 0.3s;
       cursor: default;
+
 
       &:hover {
         background-color: #F3FBF8;
@@ -363,7 +364,7 @@ h6 {
       }
 
       .best_step_img {
-        width: 80px;
+        min-width: 80px;
         height: 80px;
         border-radius: 50%;
         display: flex;
@@ -376,7 +377,8 @@ h6 {
       .best_text_text {
         max-width: 277px;
         width: 100%;
-
+        position: relative;
+        z-index: 5;
         h5 {
         }
 
@@ -398,7 +400,7 @@ h6 {
 
 .explore_items {
   position: relative;
-
+overflow-x: hidden;
   .leaves {
     position: absolute;
     right: -25px;

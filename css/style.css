@@ -3,7 +3,8 @@
   font-family: 'DM Sans', sans-serif; }
 
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  z-index: 100; }
 
 header {
   padding: 50px 0; }
@@ -246,7 +247,6 @@ h6 {
   .the_best .the_best_list .best_step {
     padding: 40px 60px;
     background-color: #fff;
-    display: flex;
     max-width: 500px;
     width: 100%;
     margin-bottom: 15px;
@@ -257,7 +257,7 @@ h6 {
     .the_best .the_best_list .best_step:hover .best_step_img {
       background-color: #fff; }
     .the_best .the_best_list .best_step .best_step_img {
-      width: 80px;
+      min-width: 80px;
       height: 80px;
       border-radius: 50%;
       display: flex;
@@ -267,7 +267,9 @@ h6 {
       margin-right: 24px; }
     .the_best .the_best_list .best_step .best_text_text {
       max-width: 277px;
-      width: 100%; }
+      width: 100%;
+      position: relative;
+      z-index: 5; }
       .the_best .the_best_list .best_step .best_text_text p {
         font-family: 'DM Sans';
         font-style: normal;
@@ -278,6 +280,7 @@ h6 {
 
 .explore_items {
   position: relative;
+  overflow-x: hidden;
   padding: 90px; }
   .explore_items .leaves {
     position: absolute;
