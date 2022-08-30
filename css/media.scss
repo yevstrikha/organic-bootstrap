@@ -44,6 +44,27 @@
 }
 
 @media only screen and (max-width: 992px) {
+  h1{
+    font-size: 55px;
+    line-height: 55px;
+  }
+  h2{
+    text-align: center;
+    font-size: 50px;
+    line-height: 55px;
+  }
+  header{
+    padding: 30px 0;
+  }
+  .main {
+    .main_content{
+      .main_img{
+        top: 77px;
+      }
+    }
+
+  }
+
   .navbar-nav {
     align-items: center;
     margin-top: 20px;
@@ -77,6 +98,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+  header{
+    padding: 10px 0;
+  }
   .our_customers .owl-nav {
     display: none;
   }
