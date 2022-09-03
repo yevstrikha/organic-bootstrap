@@ -175,7 +175,7 @@ h6 {
     display: flex;
     justify-content: space-between; }
     .main .main_content .main_img {
-      max-width: 860px;
+      max-width: 60%;
       width: 100%;
       position: relative;
       left: -45px;
